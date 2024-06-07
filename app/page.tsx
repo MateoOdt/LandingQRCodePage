@@ -113,7 +113,12 @@ export default function Home() {
                 width: "7rem",
               }}
             >
-              <Mail />
+              <Mail
+                style={{
+                  width: "24px",
+                  height: "24px",
+                }}
+              />
               <p>Mail</p>
             </Button>
           </div>
@@ -136,7 +141,12 @@ export default function Home() {
             paddingLeft: "24px",
           }}
         >
-          <Phone />
+          <Phone
+            style={{
+              width: "24px",
+              height: "24px",
+            }}
+          />
           <CardHeader>
             <CardTitle>06 52 03 42 91</CardTitle>
             <CardDescription>Mobile</CardDescription>
@@ -183,6 +193,7 @@ export default function Home() {
         >
           <Linkedin />
         </Button>
+
         {/**
          * <div
           className="sticky-btn"
