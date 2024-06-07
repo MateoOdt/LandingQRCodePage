@@ -183,7 +183,8 @@ export default function Home() {
         >
           <Linkedin />
         </Button>
-        <div
+        {/**
+         * <div
           className="sticky-btn"
           style={{
             display: "flex",
@@ -214,6 +215,7 @@ export default function Home() {
             <Contact />
           </Button>
         </div>
+         */}
       </div>
     </main>
   );
