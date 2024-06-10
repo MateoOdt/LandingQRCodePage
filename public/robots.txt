@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Disallow: /noindex
+
+# Host
+Host: https://landing-qr-code-page.vercel.app/
+
+# Sitemaps
+Sitemap: https://landing-qr-code-page.vercel.app/sitemap.xml

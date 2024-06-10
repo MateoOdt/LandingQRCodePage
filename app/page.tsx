@@ -10,10 +10,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, Linkedin } from "lucide-react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Mateo Oudart</title>
+      </Head>
       <main
         className="flex min-h-screen flex-col items-center p-4"
         style={{
